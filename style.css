@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Nova Square, Rajdhani
+}
+
+nav{ 
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo{
+    width: 250px;
+    height: 120px;
+}
+
+.mont{ 
+    
+    display: flex;
+    justify-content: center;
+}
+
+.indirizzi{
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.lista{
+    margin: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sfondo {
+    background-image: url(img/mountains2.png),
+    linear-gradient(
+    rgba( 255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+    ), url(img/switzerland-862870_1920.jpg);
+    background-position:center, center;
+    background-size: cover, cover;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 0.6em;
+    text-indent: 0.3em;
+    color: darkred;
+    text-align: center;
+}
+
+.paragrafo {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+    position: relative;
+}
+
+.paragrafo:before{
+    content: "\201C";
+    color: darkred;
+    font-size: 40px;
+}
+
+
+.paragrafo:after{
+    content: "\201E";
+    color: darkred;
+    font-size: 40px;
+}
+
+.colore {
+    background-color: rgba(236,236,236,255);
+}
+
+.contenitore {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.icona {
+    color: darkred;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.scrittina {
+    font-size: small;
+    
+}
+
+.barra {
+    height: 5px;
+    width: 200px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerchio{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 4px solid darkred;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 481px) and (max-width: 900){
+    h1{
+        letter-spacing:40px;
+    }
+}
+
+@media screen and (min-width: 901){
+    h1{
+        letter-spacing: 70px;
+    }
+}
+
+.sezioncina {
+    background-image: url(img/trees2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.ciao {
+    width: 40%;
+}
+
+.bottone {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: darkred;
+    color: white;
+    width: 300px;
+    height: 60px;
+}
+
+h3 {
+    color: darkred;
+}
+
+.des {
+    color: gray;
+}
+
+.timeline {
+    height: 100vh;
+    background-image: url(img/single.png);
+    background-size: 50%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.titoletto {
+    color: darkred;
+    
+}
+
+.relativo {
+    position: relative;
+}
+
+.barra-verticale {
+    height: 9rem;
+    width: 0.3rem;
+    background-color: darkred;
+    position: absolute;
+    left: 0.4rem;
+    top: 1.2rem;
+}
+
+.spostamento {
+    position: absolute;
+    left: 5.3rem;
+}
+
+.altezza {
+    height: 9rem;
+}
+
+.speciale {
+    height: 6rem;
+}
+
+.team {
+    background-color: rgba(236,236,236,255);
+    padding-top: 8rem;
+}
+
+.bordo{
+    width: 170px;
+    height: 170px;
+    border: 4px solid darkred;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fog{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%; 
+    background-image: url(img/fog.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+h4{
+    padding-top: 25px;
+    color: darkred;
+    text-align: center;
+}
+
+.social{
+    width: 50%;
+    color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.bordo1{
+    width: 280px;
+    height: 280px;
+    border: 4px solid darkred;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fog1{
+    width: 255px;
+    height: 255px;
+    border-radius: 50%; 
+    background-image: url(img/fog.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+.forestarossa{
+    height: 60vh;
+    background-image: url(./img/other.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: rgba(236,236,236,255);
+}
+
+.titoletto2{
+    color: darkred;
+}
+
+.footer {
+    background-color: darkred;
+    
+}
+
+.des1{
+    color: white;
+}
+
+.titolettino {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 720px){
+    .ciaone {
+        font-size: 10px; 
+    }
+    .des {
+        font-size: 10px;
+    }
+    .scrittina {
+        font-size: 10px;
+    }
+    .bottone {
+        height: 30px;
+        width: 150px;
+        font-size: 10px;
+    }
+    .ciao {
+        width: 100%;
+    }
+    .forestarossa{
+        height: 40vh;
+    }
+    .hola,.titolettino{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    h1{
+        letter-spacing: 1.2rem;
+        font-size: 67px;
+    }
+    .bordo1{
+        width: 200px;
+        height: 200px;
+    }
+    .fog1{
+        width: 175px;
+        height: 175px;
+    }
+    .forestarossa {
+        height: 20vh;
+    }
+}
+
+
